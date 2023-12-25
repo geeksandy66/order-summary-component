@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color:hsl(223.9deg 100% 91.96%);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 60px;
+    width: 30vw;
+    height: 83vh;
+    background-color: #fff;
+}
+
+.img-sub-container img{
+    width: 100%;
+    height: auto;
+}
+
+/* .order-summary{
+
+} */
+
+.sub-heading{
+    padding-top: 20px;
+    text-align: center;
+    color: hsl(228deg 10.53% 62.75%);
+}
+
+.para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:small ;
+    text-align: center;
+    color: hsl(228deg 10.53% 62.75%);
+}
+.plan-details{
+    background-color: hsl(230deg 75% 98.43%);
+    padding: 13px;
+    border-radius: 8px;
+    width: 75%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.plan-details .change-plan a:hover{
+    text-decoration: none;
+    color: hsl(245.06deg 63.36% 74.31%);
+}
+.payment-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 6vh;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(244.59deg 75.31% 52.35%);
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 15px  grey;
+}
+
+.payment-btn a:hover{
+    background-color: hsl(244.51deg 82.61% 68.43%);
+}
+
+
+.cancel-btn a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top:20px ;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: hsl(223.78deg 15.48% 53.14%);
+}
+
+.cancel-btn a:hover{
+    color: hsl(226.67deg 41.86% 16.86%);
+}
+
+@media screen and (max-width: 768px) {
+    .sub_container {
+      width: 90vw;
+    }
+
+    .plan-details {
+      width: 80%;
+    }
+
+    .payment-btn a,
+    .cancel-btn a {
+      width: 80%;
+    }
+    .img-sub-container img {
+        width: 100%;
+        height: auto;
+      }
+  }
