@@ -6,7 +6,7 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 body{
-    background-color:hsl(223.9deg 100% 91.96%);
+    background-color:hsl(225, 100%, 94%);
 }
 .container{
     width: 100%;
@@ -29,14 +29,11 @@ body{
     height: auto;
 }
 
-/* .order-summary{
-
-} */
 
 .sub-heading{
     padding-top: 20px;
     text-align: center;
-    color: hsl(228deg 10.53% 62.75%);
+    color: hsl(227, 8%, 54%);
 }
 
 .para{
